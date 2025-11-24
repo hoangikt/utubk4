@@ -20,7 +20,7 @@ jobs:
             echo "available=false" >> $GITHUB_OUTPUT;
           fi
 
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Log in to Docker Hub
         if: ${{ steps.Docker.outputs.available != 'true' }}
         uses: docker/login-action@v3
