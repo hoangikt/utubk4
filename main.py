@@ -5,6 +5,7 @@
 
 Automatically claims the Lucky pot, achievements and it prints out current stats.
 """
+# !/usr/bin/env python
 # !/usr/bin/env python3
 import configparser
 import json
